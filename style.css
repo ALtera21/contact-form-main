@@ -289,6 +289,13 @@ b{
     #first, #last{
         width: 100%;
     }
+    .email{
+        height: 8%;
+    }
+
+    #email{
+        height: 50%;
+    }
 
     .query-type{
         height: 20%;
@@ -326,5 +333,10 @@ b{
 
     .submit{
         height: 6%;
+    }
+
+    .sent{
+        width: 15rem;
+        align-self: center;
     }
 }
