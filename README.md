@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/responsive-contact-form-desktop-first-no-framework-no-library-x7wpf8OMr4)
+- Live Site URL: [Live site URL here](https://altera21.github.io/contact-form-main/)
 
 ## My process
 
