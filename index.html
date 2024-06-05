@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; position: fixed; bottom: 1rem;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="flex justify-content-center align-items-center">
+
+  <div class="container flex column justify-content-space">
+
+    <h1>Contact Us</h1>
+
+    <div class="name flex">
+      <div class="first-name"><p>First Name <b>*</b></p><input type="text" id="first"><p class=" error errorFirstName"></p></div>
+      <div class="last-name"><p>Last Name <b>*</b></p><input type="text" id="last"><p class="error errorLastName"></p></div>
+    </div>
+
+    <div class="email flex column justify-content-space"><p>Email Address <b>*</b></p><input type="email" id="email"><p class="error errorEmail"></p></div>
+
+    <div class="query-type flex column">
+      <p>Query Type<b>*</b></p>
+      
+      <div class="choose-query flex">
+        <div class="enquery flex align-items-center">
+          <input type="radio" name="query" id="enquery">
+          <div class="off-enquery"></div>
+          <img src="assets\images\icon-radio-selected.svg" class="enquery-img">
+          <p class="query-text">General Enquiry</p>
+          <div class="enquery-bg"></div>
+        </div>
+        <div class="support flex align-items-center">
+          <input type="radio" name="query" id="support">
+          <div class="off-support"></div>
+          <img src="assets\images\icon-radio-selected.svg" class="support-img">
+          <p class="query-text">Support Request</p>
+          <div class="support-bg"></div>
+        </div>
+      </div>
+
+      <p class="error query-error errorQuery"></p>
+    </div>
+
+    <div class="message flex column justify-content-space"><p>Message<b>*</b></p><textarea id="message"></textarea><p class="error errorMessage"></p></div>
+
+    <div class="consent">
+      <div class="custom-checkbox flex">
+        <input type="checkbox" id="checkbox">
+        <div class="off-checkbox"></div>
+        <img src="assets\images\icon-checkbox-check.svg" class="checkbox">
+        <p>I consent to being contacted by the team</p>
+      </div>
+      <p class="error errorCheckBox"></p>
+    </div>
+
+    <button type="submit" class="submit" id="submit">Submit</button>
+
+    <div class="sent flex column" id="sent">
+      <p class="msg-sent flex align-items-center"><img src="assets\images\icon-success-check.svg" class="check">Message Sent!</p>
+      <p>Thanks for completing the form. We'll be in touch soon!</p>
+    </div>
+
+  </div>
+  
+  <script src="script.js"></script>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/ALtera21">notAltera</a>.
+  </div>
+
+</body>
+</html>
+
